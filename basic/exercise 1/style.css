@@ -1,0 +1,13 @@
+.square {
+  width: 5em;
+  height: 5em;
+  background: sienna;
+  margin: auto; 
+}
+
+.parent {
+  border: 1px solid gray;
+  padding: 2em;
+  margin: 1em 5em;
+  background: aliceblue;
+}

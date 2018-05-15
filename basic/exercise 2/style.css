@@ -1,0 +1,16 @@
+.square {
+  width: 5em;
+  height: 5em;
+  background: sienna;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+}
+
+.parent {
+  border: 1px solid gray;
+  padding: 2em;
+  margin: 1em 5em;
+  background: aliceblue;
+  height: 5em;
+}

@@ -1,0 +1,58 @@
+@media(min-width: 750px) {
+  .main {
+    display: flex;
+  }
+  .main2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main2-box {
+    flex-basis: 25%;
+  }
+}
+
+@media(max-width: 750px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .main2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .main2-box {
+    flex-basis: 10%;
+  }
+}
+
+.main3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main>div,
+.main2-box,
+.main3-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.main3-box {
+  flex-basis: 12%;
+}
+
+.box1 {
+  flex: 1;
+  order: 2;
+}
+
+.box2 {
+  flex: 1;
+  order: 3;
+}
+
+.box3 {
+  flex: 3;
+  order: 1;
+}

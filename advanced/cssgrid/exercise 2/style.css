@@ -1,0 +1,26 @@
+.login-app {
+  display: grid;
+  grid-template-areas: 
+    'username usernameInput'
+    'password passwordInput';
+  border: 1em solid aliceblue;
+  width: 30%;
+  margin: 15% auto;
+  grid-template-columns: 1fr 4fr;
+}
+.login-app * {
+  padding: 5px;
+}
+
+.username {
+  grid-area: username;
+}
+.usernameInput {
+  grid-area: usernameInput;
+}
+.password {
+  grid-area: password;
+}
+.passwordInput {
+  grid-area: passwordInput;
+}

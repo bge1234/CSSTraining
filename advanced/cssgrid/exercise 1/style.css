@@ -1,26 +1,23 @@
-.login-app {
+.app {
   display: grid;
-  grid-template-areas: 
-  'username usernameInput'
-  'password passwordInput';
-  border: 1em solid aliceblue;
-  width: 50%;
-  margin: 0 auto;
-  grid-template-columns: 1fr 4fr;
-}
-.login-app * {
-  padding: 5px;
+  grid-template-areas:
+   'redBlock redBlock greenBlock'
+   'redBlock blueBlock greenBlock';
+  height: 100vh;
+  width: 100vw;
 }
 
-.username {
-  grid-area: username;
+#red {
+  grid-area: redBlock;
+  background: red;
 }
-.usernameInput {
-  grid-area: usernameInput;
+
+#blue {
+  grid-area: blueBlock;
+  background: blue;
 }
-.password {
-  grid-area: password;
-}
-.passwordInput {
-  grid-area: passwordInput;
+
+#green {
+  grid-area: greenBlock;
+  background: green;
 }

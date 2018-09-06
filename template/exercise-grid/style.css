@@ -1,0 +1,33 @@
+body {
+  background: black;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas: 'head head' 'left right' 'foot foot';
+}
+
+.grid > div {
+  padding: 20px;
+  margin: auto;
+  line-height: 200px;
+  width: 100%;
+  color: white;
+}
+
+.head {
+  grid-area: head;
+  background: red;
+}
+.left {
+  grid-area: left;
+  background: blueviolet;
+}
+.right {
+  grid-area: right;
+  background: green;
+}
+.foot {
+  grid-area: foot;
+  background: blue;
+}

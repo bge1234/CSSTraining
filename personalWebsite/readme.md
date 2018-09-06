@@ -21,6 +21,9 @@ Make your photo into sqaures using this photo cropper : https://www.photoresizer
 ### CSS Grid Cheatsheet
 https://css-tricks.com/snippets/css/complete-guide-grid/
 
+### CSS Flexbox Cheatsheet
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
 
 ## Recommended Tutorials
 

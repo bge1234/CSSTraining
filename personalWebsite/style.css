@@ -1,0 +1,85 @@
+body {
+  background: linear-gradient(144deg, rgba(2, 0, 36, 1) 0%, rgba(39, 74, 172, 1) 20%, rgba(0, 212, 255, 1) 100%);
+  display: grid;
+  grid-template-areas: 'profile profile''skills writeup';
+  grid-template-columns: 3fr 1fr;
+  grid-row-gap: 0.5em;
+  grid-column-gap: 0.5em;
+}
+
+body>section {
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+figure img {
+  width: 400px;
+  border-radius: 50%;
+}
+
+.profile {
+  grid-area: profile;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.profile h1,
+.skills h1,
+.writeup h1 {
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+
+.profile h5, .writeup p {
+  font-weight: 100;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+
+.skills {
+  grid-area: skills;
+}
+
+.writeup {
+  grid-area: writeup;
+}
+
+.skill-category {
+  margin: 2em;
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skill-info {
+  flex-basis: 20%;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.skill-info h4 {
+  font: 300 40px/1.5 Helvetica, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+ 
+.skill-info ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+li {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+
+.writeup p {
+  padding: 1em;
+}

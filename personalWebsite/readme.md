@@ -1,12 +1,15 @@
-#Personal Website
+# Personal Website
 
-##Resources
+## Resources
 
 ### Background Options
 Add a static color using -
 ```
-  background: black;
+  background: #2B4C6F;
 ```
+Complementary Color Palette Generator - https://htmlcolorcodes.com/resources/best-color-palette-generators/
+
+Great article on color selection - https://sermodigital.com/perfecting-campaign-colors-2/
 
 We can also use gradients as backgrounds. You can use this nifty CSS Gradient Generator: https://cssgradient.io/
 

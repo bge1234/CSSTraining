@@ -1,0 +1,45 @@
+body {
+  color: white;
+  background: black;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.row1, .row2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.row1 > div, .row2 > div {
+  padding: 20px;
+  flex: 1;
+}
+
+.item1 {
+  background: yellowgreen;
+  flex: 3 !important;
+}
+
+.item2 {
+  background: blue;
+}
+
+.item3 {
+  background: pink;
+}
+
+.item4 {
+  background: red;
+}
+
+.item5 {
+  background: green;
+}
+
+.item6 {
+  background: aqua;
+}
